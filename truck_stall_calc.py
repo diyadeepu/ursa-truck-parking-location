@@ -4,7 +4,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-SQ_FT_PER_STALL = 1000
+SQ_FT_PER_STALL = int(input("Enter square footage per truck parking stall (e.g. 300): ").strip())
 
 url = input("Paste your public Google Sheets link: ").strip()
 
